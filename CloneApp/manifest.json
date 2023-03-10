@@ -1,0 +1,35 @@
+{
+    "name": "My clone web app",
+    "short_name": "My App",
+    "logo": "https://rp.creativecircle.com/Jobs/Images/CC_secondary_stacked_logo.svg",
+    "colors": {
+        "grey": "#1C2B39",
+        "red": "#B2282D",
+        "orange": "#FFC818",
+        "green": "#3C9E87",
+        "lightBlack": "#1C2B39",
+        "lighterBlack": "#a3aaae"
+    },
+    "icons": [
+        {
+            "src": "./Icons/icons8-facebook-f-50.png",
+            "sizes": "50x50",
+            "type": "image/png"
+        },
+        {
+            "src": "./Icons/icons8-twitter-50.png",
+            "sizes": "50x50",
+            "type": "image/png"
+        },
+        {
+            "src": "./Icons/icons8-instagram-50.png",
+            "sizes": "50x50",
+            "type": "image/png"
+        },
+        {
+            "src": "./Icons/icons8-linkedin-2-50.png",
+            "sizes": "50x50",
+            "type": "image/png"
+        }
+    ]
+}
