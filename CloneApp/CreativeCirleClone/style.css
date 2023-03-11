@@ -1,0 +1,340 @@
+body {
+    /*margin-left: 15%;
+    margin-right: 20%;*/
+    margin: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding: 0%;
+    font-family: "Montserrat", helvetica, arial, serif;
+    color: #a3aaae;
+    background-color: #fbfbf8
+}
+
+header {
+    height: 10vh;
+    padding-left: 15%;
+    padding-right: 20%;
+    border-bottom: 1px solid gray;
+}
+
+#logo {
+    height: 95%;
+}
+
+.inputBox.red {
+    background-color: red;
+}
+
+
+h1 {
+
+    margin-bottom: 20px;
+    font-size: 54pt;
+    margin-top: 70px;
+    color: #1C2B39;
+    font-weight: 900 !important;
+    font-family: freight-big-pro, serif;
+    letter-spacing: 0.02em;
+    display: inline-block;
+    margin-left: 15%;
+    margin-right: 20%;
+}
+
+h2 {
+    font-family: freight-big-pro, serif;
+    margin-bottom: 29px;
+    margin-top: 14px;
+    font-size: 34pt;
+    font-weight: 900;
+    letter-spacing: 0.02em;
+    color: #1C2B39;
+    margin-left: 15%;
+    margin-right: 20%;
+}
+
+#greenLine {
+    height: 0.3rem;
+    width: 6.5%;
+    background-color: #3C9E87;
+    margin-left: 15%;
+    margin-right: 20%;
+}
+
+/*p tag css*/
+
+/*bold*/
+
+b {
+    color: #1C2B39;
+    font-weight: 600;
+}
+
+/**apply job submit button*/
+
+#applyJob {
+    background-color: #FFC818;
+    color: #1C2B39;
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 29px;
+    margin-top: 14px;
+    border: none;
+
+}
+
+p {
+    margin-left: 15%;
+    margin-right: 20%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    /*border: 2px solid black;*/
+    margin-left: 15%;
+    margin-right: 20%;
+}
+
+.inputBox {
+    margin: 1.5% 0%;
+    height: 4em;
+    padding: 1%;
+}
+
+#biggerInputBox {
+    height: 10em;
+}
+
+
+/**/
+
+
+.custom-file-upload {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    padding: 6px 12px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    font-size: 16px;
+    text-align: center;
+    width: 100px;
+    min-height: 50px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.custom-file-upload input[type="file"] {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+.custom-file-upload span {
+    position: relative;
+    z-index: 1;
+    color: black;
+}
+
+
+#applyJob {
+    margin: 2% 0%;
+    height: 4em;
+    text-transform: uppercase;
+
+
+}
+
+/*table**/
+
+.tContainer {
+    margin: 1.5% 0%;
+    margin-left: 15%;
+    margin-right: 20%;
+}
+
+table {
+    border: 1px solid purple;
+    border-collapse: collapse;
+}
+
+.tableHeader {
+    padding: 8px;
+    line-height: 1.75;
+    vertical-align: top;
+    border: 1px solid #ddd;
+    color: #1C2B39;
+    font-size: 16px;
+}
+
+.tableResponse {
+    color: #a3aaae;
+    padding: 8px;
+    line-height: 1.75;
+    vertical-align: top;
+    border: 1px solid #ddd;
+    font-size: 16px;
+
+}
+
+
+/*footer*/
+footer {
+    width: 100%;
+
+}
+
+@media screen and (max-width:768px) {
+
+    .first {
+        display: flex;
+        flex-direction: column-reverse;
+        height: auto;
+        font-size: 8px;
+        color: #1C2B39;
+        font-weight: 600;
+
+    }
+
+    .aboutInfo {
+        display: grid;
+        grid-template-columns: repeat(2, 150px);
+        grid-template-rows: repeat(3, 25px);
+        /*verticle gap between divs*/
+        grid-gap: 5px;
+        border-top: 1px solid #1C2B39;
+        padding: 5%;
+        font-size: 16px;
+
+    }
+
+    .item {
+
+        text-align: center;
+        font-size: 8px;
+    }
+
+    .item:hover {
+        text-decoration-line: underline;
+    }
+
+    .social {
+        text-align: center;
+    }
+
+    .iconDiv {
+        display: flex;
+        justify-content: space-around;
+        width: auto;
+        height: auto;
+        margin: 5% 0%;
+    }
+
+    .bgCircle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+        border: 1px solid #1C2B39;
+        border-radius: 100%;
+    }
+
+    .bgCircle:hover {
+        border: none;
+        transition: 0.3;
+    }
+
+    .bgCircle img {
+        width: 70%;
+        height: 70%;
+    }
+
+    
+
+}
+
+@media screen and (min-width:769px) {
+
+    .first {
+        display: flex;
+        color: #1C2B39;
+    }
+
+    .aboutInfo {
+        display: grid;
+        grid-template-columns: repeat(3, 150px);
+        grid-template-rows: repeat(2, 25px);
+        /*verticle gap between divs*/
+        grid-gap: 5px;
+        padding: 5%;
+        font-size: 12px;
+        font-weight: 600;
+        color: #1C2B39;
+
+        padding-left: 15%;
+
+    }
+
+    .social {
+        text-align: left;
+        font-size: 12px;
+    }
+
+    .iconDiv {
+        display: flex;
+        justify-content: space-around;
+        width: auto;
+        height: auto;
+        margin: 5% 0%;
+    }
+
+    .bgCircle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+        border: 1px solid #1C2B39;
+        border-radius: 100%;
+    }
+
+    .bgCircle:hover {
+        border: none;
+        transition: 0.3;
+    }
+
+    .bgCircle img {
+        width: 70%;
+        height: 70%;
+    }
+
+    .copyRightDiv {
+        
+    }
+
+}
+
+
+/*social icons*/
+
+.iconDiv {
+    display: flex;
+}
+
+.socialIcon {
+    width: 50px;
+    height: auto;
+}

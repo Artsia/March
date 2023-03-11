@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,24 +9,191 @@
 
     <link rel="icon" href="../Icons/icons8-facebook-f-50.png" sizes="192x192">
     <link rel="icon" href="../Icons/icons8-twitter-50.png" sizes="512x512">
+    <link rel="stylesheet" href="style.css">
 
 
 
-    <title>Creative circle clone</title>
+    <title>Job Board Clone</title>
     <!--clone https://rp.creativecircle.com/Jobs/JobBoard.aspx?ID=0186evcj7f1gl34qqvcin1kbsls-->
 </head>
-<body>
-   
-    <header>
-        <img src="https://rp.creativecircle.com/Jobs/Images/CC_secondary_stacked_logo.svg" alt="">
 
+<body>
+
+    <header>
+        <img src="https://rp.creativecircle.com/Jobs/Images/CC_secondary_stacked_logo.svg" alt="" id="logo">
     </header>
 
+    <h1>Quickly Apply</h1>
+
+    <h2>Front End Developer</h2>
+
+    <div id="greenLine"></div>
+
+    <p>Just send us your contact info, attach your resume,
+        and applicable samples, and click "Apply for this Job"</p>
+
+    <p id="pRed">
+
+    </p>
+
+    <div class="formSection">
+        <form class="form">
+            <input type="text" class="inputBox" placeholder="First name*" required id="fName">
+            <input type="text" class="inputBox" placeholder="Last name*" required id="lName">
+            <input type="email" class="inputBox" placeholder="Email Address*" required id="eAddress">
+
+            <input type="text" class="inputBox" id="biggerInputBox"
+                placeholder="Tell us about your fit for this position">
+            <input type="text" class="inputBox" placeholder="Portfolio Web Link">
+        </form>
+
+        <p>Your resume and samples are important.
+            <b>Attach as many as you like</b>
+            (10MB max for all files) in .doc, .docx, .rtf, .pdf, .ppt, .pptx format.
+            Locate and select your documents on your computer using the button below:
+        </p>
+
+
+        <form>
+            <div class="custom-file-upload">
+                <input type="file" id="fileUpload" name="fileUpload">
+                <span id="inputSpan">Choose File</span>
+            </div>
+
+            <input type="submit" value="apply for this job" id="applyJob">
+
+        </form>
+    </div>
+
+    <div class="jobDetails">
+        <h1> Job Details</h1>
+        <div id="greenLine"></div>
+    </div>
+
+    <div class="tContainer">
+
+        <table>
+            <tr>
+                <td class="tableHeader">Location</td>
+                <td class="tableResponse">Fully Remote</td>
+            </tr>
+            <tr>
+                <td class="tableHeader">Type</td>
+                <td class="tableResponse">Freelance</td>
+            </tr>
+            <tr>
+                <td class="tableHeader">Duration </td>
+                <td class="tableResponse">Approximately one month</td>
+            </tr>
+            <tr>
+                <td class="tableHeader">Start</td>
+                <td class="tableResponse">March 25 2023</td>
+            </tr>
+            <tr>
+                <td class="tableHeader">Hourly Rate</td>
+                <td class="tableResponse">$50 - $50 / Hr</td>
+            </tr>
+            <tr>
+                <td class="tableHeader">Description</td>
+                <td class="tableResponse">
+                    Our client is looking for a Front End Developer with design skills to assist on a project.
+
+                    What you'll be doing in this Front End Developer role:
+                    - You'll build a 10-15 page site for a not-for-profit NGO on WordPress or similar platform
+                    - Working with the client you'll identify and customize a theme, adding functionality and design
+                    tweaks as needed
+                    - You'll integrate plug-ins to add login and payment functionality
+                    - You'll code for the site build and help to set up the CRM for the client
+
+                    Skills and qualifications for this Front End Developer role:
+                    - 4+ years of relevant work experience
+                    - Strong HTML/CSS and JavaScript ability
+                    - Knowledge and ability in design for web
+                    - Solid understanding of WordPress customization and setup
+
+                    Apply with a brief description of your qualifications
+                    and relevant work samples if you're interested in this role.
+
+                    Creative Circle ULC is an Equal Opportunity Employer.
+                    All qualified applicants will receive consideration
+                    for employment without regard to age, ancestry, colour,
+                    race, citizenship, ethnic origin, place of origin, creed,
+                    disability, family status, marital status, sex, sexual orie
+                    ntation, gender identity, gender expression, record of offen
+                    ces and/or any other ground protected by applicable law. If
+                    you require accommodation in the application process on the b
+                    asis of a disability or any other ground protected by applica
+                    ble law, please contact a member of our Human
+                    Resources team at HumanResources@creativecircle.
+                    com or your Creative Circle Recruiter to make arrangements.
+                </td>
+            </tr>
+        </table>
 
 
 
+    </div>
 
 
-   <script src="script.js" ></script>
+    <footer>
+
+        <div class="first">
+            <div class="aboutInfo">
+                <div class="item">ABOUT US</div>
+                <div class="item">CONTACT US</div>
+                <div class="item">PRIVACY POLICY</div>
+                <div class="item">TERMS OF USE</div>
+                <div class="item">AVAILABLE JOBS</div>
+                <div class="item">TIMECARD</div>
+
+            </div>
+
+            <div class="social">
+                <div class="iconDiv">
+
+                    <div class="bgCircle">
+                        <img src="../Icons/icons8-facebook-f-50.png" alt="" class="socialIcon">
+                    </div>
+                    <div class="bgCircle">
+                        <img src="../Icons/icons8-twitter-50.png" alt="" class="socialIcon">
+                    </div>
+                    <div class="bgCircle">
+                        <img src="../Icons/icons8-instagram-50.png" alt="" class="socialIcon">
+                    </div>
+                    <div class="bgCircle">
+                        <img src="../Icons/icons8-linkedin-2-50.png" alt="" class="socialIcon">
+                    </div>
+
+                </div>
+
+                <div class="copyRightDiv">
+                    <p>Copyright 2018-2022 Creative Circle, LLC.</p>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="second">
+            <p>Creative Circle is an Equal Employment Opportunity Employer.
+                All qualified applicants will receive consideration for employment
+                without regard to race, color, creed, religion, sex (including pregnancy,
+                childbirth, breastfeeding, or related medical conditions), age, sexual
+                orientation, gender identity or expression, national origin, ancestry,
+                citizenship, genetic information, registered domestic partner status,
+                marital status, disability, status as a crime victim, protected veteran
+                status, or any other characteristic protected by law. Creative Circle
+                will consider qualified applicants with criminal histories in a manner
+                consistent with the requirements of applicable law. If you need a rea
+                sonable accommodation in the application process, please contact your
+                Recruiter (the person you'll be interviewing with) or a member of our
+                Human Resources team to make arrangements.
+            </p>
+        </div>
+
+
+
+    </footer>
+
 </body>
+
 </html>
