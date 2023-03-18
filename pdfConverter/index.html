@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<!doctype html>
+<html>
+
+<head>
+    <title>Convert API snippet</title>
+</head>
+
+<body>
+    <!--Retrieve secret key by signing u on https://www.convertapi.com/-->
+
+    <form action="https://v2.convertapi.com/convert/html/to/pdf?Secret=your-api-secret&download=attachment"
+        method="post" enctype="multipart/form-data">
+        <input type="file" name="File" />
+        <input type="submit" value="Convert file" />
+    </form>
+</body>
+
+</html>
