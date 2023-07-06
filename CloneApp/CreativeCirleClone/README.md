@@ -5,6 +5,7 @@
      Allow users to select files to upload
      Users can add a description of themselves
      Social media links to showcase skills
+     Job details section
 ## Design
      has already been done, I just have to implement the solution.
 ## Role
